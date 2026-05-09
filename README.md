@@ -1,7 +1,7 @@
 # Principle of AVL_Remove
 
-*本篇中，Avl树remove操作通过自顶向下的旋转方式维持删除过程的平衡，写了点说明*
-**完整代码实现位于”AVL_modified.h“，"main.cpp"代码提供测试**
+ *在本篇中，Avl树的remove操作通过了自顶向下的旋转方式维持平衡，顺便写了说明ww*
+ **完整代码实现位于”AVL_modified.h“，"main.cpp"代码提供测试**
 ---
 ### Part1.思路与可行性
 
