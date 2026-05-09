@@ -15,11 +15,14 @@ graph TD
 	A((A))
 	B((B))
 	C((C))
+	D((Del))
+	note(🔴节点即被删除子树)
 	A --> B
 	A --> C
-	
+	note --> D
+
 	style B fill:#ffaaaa
-	
+	style D fill:#ffaaaa
 ```
 
 由于删除本身就是自根向下的过程，因此不断调整子树的的高度成为可能。
@@ -40,7 +43,7 @@ template<class KEY , class OTHER>
 void AvlTree2<KEY , OTHER>::remove(const KEY &key) {
     AVLNode **cur = &root; 
     AVLNode *tmp; //这是临时节点
-    KEY now  = key; //教材删除方法
+    KEY now  = 
     ...
 ```
 ---
